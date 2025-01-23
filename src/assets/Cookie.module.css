@@ -1,0 +1,28 @@
+.cookie {
+  width: 20rem;
+  height: auto;
+  border-radius: 25rem;
+}
+.button {
+  background-color: white;
+  border-radius: 25px;
+  border: 1px;
+  transition: transform;
+  cursor: pointer;
+}
+.button:active {
+  transform: scale(0.9);
+}
+.cookiebox {
+  padding-left: 10px;
+  border: 1px none;
+  background-color: rgb(136, 58, 209);
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
